@@ -39,4 +39,4 @@ task = queue.get_task(Resources(ram=16, cpu_cores=4, gpu_count=1))
 print(f"Retrieved Task: {task.content}")
 
 # To execute the tests, open a terminal at the project root and run
-```pytest
+pytest
